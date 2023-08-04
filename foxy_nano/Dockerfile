@@ -10,7 +10,7 @@ COPY cross.cmake /opt/nano/
 
 RUN set -x \
     && apt update \
-    && apt install -y file openssl libssl-dev 
+    && apt install -y file openssl libssl-dev rsync
 
 USER xxx 
 
